@@ -1,13 +1,13 @@
 {
   "SchemaVersion": 1,
-  "Name": "AzureIoT",
-  "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491d5",
+  "Name": "SelfAzureIoTPOC-V0",
+  "ComponentId": "850095EB-D31D-493B-AC0E-336D50191601",
   "EntryPoint": "/bin/app",
-  "CmdArgs": [],
+  "CmdArgs": [ "--ConnectionType", "DPS", "--ScopeID", "0ne0019967B" ],
   "Capabilities": {
-    "AllowedConnections": [ "global.azure-devices-provisioning.net" ],
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "155529AzSphereIotHub.azure-devices.net" ],
     "Gpio": [ "$SAMPLE_BUTTON_1", "$SAMPLE_LED" ],
-    "DeviceAuthentication": "00000000-0000-0000-0000-000000000000"
+    "DeviceAuthentication": "e857efaf-b03d-4c8b-b83e-61b0eb0ba8ad"
   },
-    "ApplicationType": "Default"
-  }
+  "ApplicationType": "Default"
+}

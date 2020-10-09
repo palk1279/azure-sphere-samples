@@ -26,7 +26,7 @@
 // 2. The Azure IoT Hub Endpoint address(es) (set in 'AllowedConnections')
 // 3. Azure IoT Hub hostname (set in 'CmdArgs')
 // 4. Device ID (set in 'CmdArgs' and must be in lowercase)
-// 5. Type of connection to use when connecting to the Azure IoT Hub (set in 'CmdArgs')
+// 5. Type of connection to use when connecting to the Azure IoT Hub (set in 'CmdArgs')..
 
 #include <ctype.h>
 #include <errno.h>
